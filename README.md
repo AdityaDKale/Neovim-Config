@@ -1,4 +1,4 @@
-# Neovim-Config 😃
+# Neovim-Config
 
   This repository contains the configuration files for my personal Neovim 💻.
 
