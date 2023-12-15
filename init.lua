@@ -27,7 +27,6 @@ require("lazy").setup({
     --- Uncomment these if you want to manage LSP servers from neovim
     {'williamboman/mason.nvim'},
     {'williamboman/mason-lspconfig.nvim'},
-    
     {'VonHeikemen/lsp-zero.nvim', branch = 'v3.x'},
     {'neovim/nvim-lspconfig'},
     {'hrsh7th/cmp-nvim-lsp'},
@@ -38,6 +37,7 @@ require("lazy").setup({
     {'hrsh7th/cmp-nvim-lsp'},
     {'L3MON4D3/LuaSnip'},
     "askfiy/visual_studio_code",
-    "DreamMaoMao/yazi.nvim"
+    "DreamMaoMao/yazi.nvim",
+    {'numToStr/Comment.nvim', lazy = false,}
 })
 
